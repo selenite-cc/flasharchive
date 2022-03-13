@@ -1,0 +1,71 @@
+* {
+    font-family: 'Amaranth', sans-serif;
+}
+
+body {
+    background: #3e3f57
+}
+
+p {
+		color:#b5b7eb;
+}
+
+h1 {
+		position:relative;
+		left:80px;
+		color:#b5b7eb;
+}
+
+button {
+    background-color: #515357;
+    color: #a0b4db;
+    border-radius: 5px;
+		padding: 3px 1%
+}
+
+a:link {
+	color:#a0b4db;
+}
+
+a:visited {
+	color:#b5b7eb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links button {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color:
+}
+
+.divider {
+		width:5px;
+		height:auto;
+		display:inline-block;
+}
+.divide {
+		margin-left:100px;
+}
+
+
