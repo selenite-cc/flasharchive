@@ -1,1 +1,5 @@
-This repo hosts ~30 old flash games, with HTML files that work for all of them to play them on your own device.
+# Welcome to the Flash Archive.
+This GitHub hosts 44 flash games for everyone to enjoy, from home to school to work.
+
+# Installation
+To be able to use this website locally, all you have to do is download the Full Website in the Packages tab. 
