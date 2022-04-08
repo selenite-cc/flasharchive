@@ -2,33 +2,57 @@
     font-family: 'Amaranth', sans-serif;
 }
 
+@keyframes bg-gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    10% {opacity:0.4;}
+    50% {opacity:0.8}
+    100% {opacity:1;}
+  }
+
 body {
-    background: linear-gradient(90deg, rgba(71,71,178,1) 0%, rgba(53,143,185,1) 100%); 
+	background: linear-gradient(-45deg, #349ef0, #7a4abe, #349ef0);
+	background-size: 400% 400%;
+	animation: bg-gradient 15s ease infinite;
 }
 
 p {
 	color:#b5b7eb;
+    animation: fadeIn ease-out 0.8s;
 }
 
 h1 {
 	position:relative;
 	left:80px;
 	color:#b5b7eb;
+    animation: fadeIn ease-out 0.8s;
 }
 
 button {
-    background-color: #90b5f0;
+    background-color: rgba(255,255,255,0.3);
     color: #232f42;
     border: 2.5px solid #6186c2;
     border-radius: 10px;
 	padding: 5px 13px;
     margin-bottom: 6px;
     transition-duration: 0.45s;
+    animation: fadeIn ease-out 0.8s;
 }
 
 button:hover {
-    background-color:#6186c2;
+    background-color:rgba(0,0,0,0.2);
     border: 2.5px solid #81a1d6;
+    color: #9dade3;
 }
 
 a:link {
@@ -44,10 +68,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 10%;
-    background: linear-gradient(90deg, rgba(116,94,218,1) 0%, rgba(64,160,234,1) 100%);
+    background: linear-gradient(-45deg, #626ce0, #349ef0, #626ce0);
+    background-size: 400% 400%;
+    animation: bg-gradient 15s ease infinite;
     border-radius:100px;
     border: linear-gradient(90deg, rgba(52,158,240,1) 0%, rgba(74,87,191,1) 100%);
     border: 10px solid #4f71b0;
+    animation: fadeIn ease-out 0.8s;
 }
 
 .logo {
@@ -76,5 +103,3 @@ p1 {
   font-size: 1.75em;
 	color:#b5b7eb;
 }
-
-
